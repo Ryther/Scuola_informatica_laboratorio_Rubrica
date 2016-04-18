@@ -21,14 +21,6 @@ public class Contatto implements Comparable {
         this.cognome = cognome;
         this.numeriTelefono = new HashSet();
     }
-    
-    public Contatto(String nome, String cognome, String numeroTelefono) {
-        
-        this.nome = nome;
-        this.cognome = cognome;
-        this.numeriTelefono = new HashSet();
-        this.addNumeroTelefono(numeroTelefono);
-    }
 
     public String getNome() {
         
